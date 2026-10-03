@@ -1,7 +1,6 @@
 # GitProfile
 
 ## Stack
-
 - **Runtime**: Node.js 18+
 - **Framework**: Vite (modern bundler)
 - **UI**: React 19 with TypeScript
@@ -10,7 +9,6 @@
 - **Blog Integration**: blog-js library
 
 ## Project Structure
-
 ```
 src/
   components/         # React components
@@ -22,7 +20,6 @@ vite.config.ts        # Vite configuration
 ```
 
 ## Key Patterns
-
 - **Automatic Portfolio**: Pulls data from GitHub profile to generate portfolio site
 - **Configurable**: Customizable via config file (colors, sections, links)
 - **Static Generation**: Builds to static HTML/CSS/JS
@@ -30,7 +27,6 @@ vite.config.ts        # Vite configuration
 - **Responsive**: Mobile-first with Tailwind
 
 ## Common Commands
-
 ```bash
 npm install                    # Install dependencies
 npm run dev                    # Vite dev server (http://localhost:5173)
@@ -43,14 +39,12 @@ npm run preview                # Preview production build locally
 ```
 
 ## Important Files
-
 - `src/App.tsx` — Main app component
 - `src/components/` — Reusable UI components
 - `public/config.json` — Profile configuration
 - `vite.config.ts` — Build & dev server config
 
 ## Notes
-
 - This is a forked copy of arifszn/gitprofile; upstream is at `master` branch (default is `main`)
 - Vite rebuilds very fast; dev experience is smooth
 - Before pushing, run both `lint` and `prettier:fix`

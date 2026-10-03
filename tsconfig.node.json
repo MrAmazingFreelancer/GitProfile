@@ -4,11 +4,7 @@
     "skipLibCheck": true,
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "allowSyntheticDefaultImports": true,
-    "allowImportingTsExtensions": true,
-    "emitDeclarationOnly": true,
-    "declarationDir": "./node_modules/.cache/tsc/node",
-    "tsBuildInfoFile": "./node_modules/.cache/tsc/node.tsbuildinfo"
+    "allowSyntheticDefaultImports": true
   },
   "include": ["gitprofile.config.ts", "vite.config.ts"]
 }
